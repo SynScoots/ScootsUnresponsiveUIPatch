@@ -103,25 +103,6 @@ local numberedFrames = {
     }
 }
 
-local reorderFrames = {
-    {
-        ['adjust'] = 'LootDBFrame',
-        ['by'] = 10,
-        ['relativeto'] = {
-            'AttuneMgrFrame'
-        }
-    },
-    {
-        ['adjust'] = 'ISelFrame',
-        ['by'] = 10,
-        ['relativeto'] = {
-            'BHunterFrame',
-            'LootDBFrame',
-            'LFilterFrame'
-        }
-    }
-}
-
 masterFrame:SetScript('OnUpdate', function()
     for _, config in pairs(frames) do
         if(_G[config.parent] ~= nil and _G[config.parent]:IsVisible()) then
