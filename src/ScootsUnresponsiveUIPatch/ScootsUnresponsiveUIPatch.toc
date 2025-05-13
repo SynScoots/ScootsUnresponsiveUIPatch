@@ -1,0 +1,7 @@
+## Interface: 30300
+## Title: Scoots Unresponsive UI Patch
+## Author: Scoots
+## Notes: Fixes various UI elements becoming unresponsive
+## Version: 3.3.5
+
+ScootsUnresponsiveUIPatch.lua
